@@ -55,7 +55,7 @@ def total_gross(source)
    total = 0
 
     while index < director_names.length do
-     dir_name = director_names[i]
+     dir_name = director_names[index]
      total += director_hash[dir_name]
      index += 1
  end
